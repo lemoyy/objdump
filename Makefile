@@ -20,8 +20,7 @@ INC_DIR		:=	inc
 SRC_2	:=	main.c \
 		format32.c \
 		check_error.c \
-		format64.c \
-		print_help.c
+		format64.c
 
 SRC_2	:=	$(addprefix $(SRC_2_DIR)/, $(SRC_2))
 
